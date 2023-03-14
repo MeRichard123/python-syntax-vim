@@ -431,7 +431,7 @@ if v:version >= 508 || !exists('did_python_syn_inits')
     HiLink pythonStatement        Keyword
     HiLink pythonRaiseFromStatement   Statement
     HiLink pythonImport           Keyword
-    HiLink pythonFunction         Keyword
+    HiLink pythonFunction         Statement
     HiLink pythonFunctionCall     Statement
     HiLink pythonConditional      Conditional
     HiLink pythonRepeat           Keyword
