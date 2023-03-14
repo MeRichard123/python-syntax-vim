@@ -428,13 +428,13 @@ if v:version >= 508 || !exists('did_python_syn_inits')
         command -nargs=+ HiLink hi def link <args>
     endif
 
-    HiLink pythonStatement        Statement
+    HiLink pythonStatement        Keyword
     HiLink pythonRaiseFromStatement   Statement
-    HiLink pythonImport           Include
-    HiLink pythonFunction         Function
-    HiLink pythonFunctionCall     Function
+    HiLink pythonImport           Keyword
+    HiLink pythonFunction         Keyword
+    HiLink pythonFunctionCall     Keyword
     HiLink pythonConditional      Conditional
-    HiLink pythonRepeat           Repeat
+    HiLink pythonRepeat           Keyword
     HiLink pythonException        Exception
     HiLink pythonOperator         Operator
 
